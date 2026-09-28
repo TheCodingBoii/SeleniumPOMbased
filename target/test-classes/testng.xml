@@ -1,1 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<suite name="OrangeHRMSuite">
+	<test name="OrangeHRMTest">
+		<classes>
+			<class name="com.oraHRM.test.DummyTest"></class>
+			<class name="com.oraHRM.test.DummyTesty"></class>
+		</classes>
+	</test>
+	<test name="OrangeHRMTest1">
+		<classes>
+			<class name="com.oraHRM.test.DummyTest"></class>
+			<class name="com.oraHRM.test.DummyTesty"></class>
+		</classes>
+	</test>
+</suite>
