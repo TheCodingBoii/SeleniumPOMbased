@@ -3,14 +3,15 @@
 <suite name="Failed suite [OrangeHRMSuite]">
   <test thread-count="5" name="OrangeHRMTest(failed)">
     <classes>
-      <class name="com.oraHRM.test.DummyTesty">
+      <class name="com.oraHRM.test.LoginTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="setupPAges"/>
           <include name="loadConfig"/>
-          <include name="dummyTesty"/>
+          <include name="verifyValidLoginTest"/>
         </methods>
-      </class> <!-- com.oraHRM.test.DummyTesty -->
+      </class> <!-- com.oraHRM.test.LoginTest -->
     </classes>
   </test> <!-- OrangeHRMTest(failed) -->
 </suite> <!-- Failed suite [OrangeHRMSuite] -->

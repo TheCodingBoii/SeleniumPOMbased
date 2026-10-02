@@ -4,12 +4,7 @@
 		<classes>
 			<class name="com.oraHRM.test.DummyTest"></class>
 			<class name="com.oraHRM.test.DummyTesty"></class>
-		</classes>
-	</test>
-	<test name="OrangeHRMTest1">
-		<classes>
-			<class name="com.oraHRM.test.DummyTest"></class>
-			<class name="com.oraHRM.test.DummyTesty"></class>
+			<class name="com.oraHRM.test.LoginTest"></class>
 		</classes>
 	</test>
 </suite>
